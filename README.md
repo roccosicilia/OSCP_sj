@@ -1,2 +1,1 @@
-
 # OSCP: Sheliak's journey
