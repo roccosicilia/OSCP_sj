@@ -18,6 +18,8 @@
     - Attacco e primo accesso
     - Penmanenza dell'accesso
     - Attività post attacco
-
+- Altre metodologie di riferimento:
+   - OWASP
+   - OSSTMM3
 
 
