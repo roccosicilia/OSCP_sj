@@ -22,4 +22,14 @@
    - OWASP
    - OSSTMM3
 
+# Reporting (1.8)
 
+ - Considerati un male necessario, sono un elemento fondamentale dell'attività di PT
+ - Considere l'obiettivo: il report non è solo una presentazione tecnica, la trattazione deve avere un obiettivo, un messaggio che possa dare valore alla trattazione tecnica
+ - Considera il destinatario: persone con differenti livelli tecnici e competenze leggeranno il report, fai in modo di avere delle sezioni comprensibili per ogni interlocutore
+ - Valuta cosa includere e cosa escludere:
+   - NON INCLUDERE pagine e pagine di output dei tools
+   - Una gli screenshots con saggezza: devono avere uno scopo comunicativo, non riempire le pagine
+   - Integra con approfondimenti esterni: eventuali approfondimenti tecnici posso essere allegati al report ma non farte parte, in questo modo chi ha interesse (e competenze) potrà approfondire
+   - Mantieni il focus sull'obiettivo: eventuali note o azioni fuori focus non devono far parte del report
+ - La presentazione è importante quanto il contenuto: formati, ortografia e stili devono essere perfetti ed in inglese (visto lo scenario internazionale)
