@@ -15,7 +15,7 @@
     - Eseguire il boot di Kali e modificare la password dell'utente kali (che di default è kali)
         - Avviare il sistema ed accedere con utente kali / kali
         - Avviare una shell
-        - Utilizzare in comando "passwd", verrà chiedo di inserire la nuova password con relativa conferma
+        - Utilizzare in comando "passwd", verrà chiesto di inserire la nuova password con relativa conferma
 
  - Comandi base linux...
     - ls       listing della directory corrente
