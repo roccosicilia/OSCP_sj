@@ -46,5 +46,34 @@
     - Risorse:
       https://linux.die.net/man/1/find
 
- - Gestione dei servizi
-    - 
+ - Gestione dei servizi (2.5)
+    - SSH utilizzato per accedere remotamente al sistema
+      - sudo *systemctl* start ssh        /// avvia il servizio
+      - sudo *ss* -antlp | grep sshd
+         - sudo netstat -na | grep ssh    /// mia personale preferenza
+      - sudo systemctl enable ssh         /// abilita il servizio al boot
+    - HTTP
+      - sudo systemctl start apache2
+      - ...
+    - Molti servizi negli ambienti linux, come Kali, operano similmente a ssh e apache
+    - Il comando *systemctl* list-unit-files mostra la tabella dei servizi disponibili ed il loro stato
+
+ - Gestione dei pacchetti
+    - sudo apt update      /// aggiorna le rep
+    - sudo apt upgrade     /// aggiorna i pacchetti installati
+    - sudo apt-cache search *pck*   /// cerca un pacchetto nelle repo
+    - sudo apt install *pkg*        /// installa il pacchetto
+    - sudo apt remove --purge *pkg* /// rimuove il pacchetto
+
+ - Esercizi 2.6.6.1
+    - Take a snapshot of your Kali virtual machine (optional).
+      - Se usate una Virtual Machine tramite VirtualBox o simile potete utilizzare la funzione snapshot prima di eseguire operazioni invasive come l'installazione di nuovi pacchetti
+   
+    - Search for a tool not currently installed in Kali.
+       - sudo apt-cache search php8 ---> php8.1 - server-side, HTML-embedded scripting language (metapackage)
+   
+    - Install the tool.
+       - sudo apt install php8.1
+
+
+
