@@ -5,7 +5,7 @@
  - Sviluppata per Penetration Testing e Security Audit
  - Libro di approfondimento suggerito: "Kali Linux Revealed"
 
-# Avvio / Installazione
+# Avvio / Installazione / Utilizzo base
 
  - Sul sito kali.org sono disponibili le immagini
  - E' possibile utilizzare Kali su un host dedicato o come VMs
@@ -40,8 +40,8 @@
       - sudo updatedb && locate wce32.exe
 
     - Use find to identify any file (not directory) modified in the last day, NOT owned by the root user and execute ls -l on them. Chaining/piping commands is NOT allowed!
-      - sudo find {dir} -mtime -1 -exec ls -l {} \; | grep -v root ---> da fare senza grep
-      - sudo find {dir} -mtime -1 -type f -not -user root -exec ls -l {} \; ---> secondo tentativo nuscito meglio ;)
+      - sudo find {dir} -mtime -1 -exec ls -l {} \; | grep -v root /// da fare senza grep
+      - sudo find {dir} -mtime -1 -type f -not -user root -exec ls -l {} \; /// secondo tentativo venuto meglio ;)
 
     - Risorse:
       https://linux.die.net/man/1/find
